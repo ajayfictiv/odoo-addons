@@ -1,0 +1,24 @@
+# dotfiles
+.*
+!.editorconfig
+!.arcconfig
+!.gitignore
+!.mailmap
+# compiled python files
+*.py[co]
+# setup.py egg_info
+*.egg-info
+*.log
+
+# various development stuff
+/dumps/
+/dev-tests/
+odoo.sublime*
+node_modules
+tester
+credentials-production.yml
+credentials-dev3.yml
+credentials-prod.yml
+*.tgz
+package-lock.json
+last_deploy.log
