@@ -8,6 +8,7 @@ class Machine(models.Model):
 
     name = fields.Char(required=True)
     vendor_id = fields.Many2one(
-        'res.partner', domain=[('supplier', '=', True)], required=True)
+        'res.partner', string="Vendor", domain=[('supplier', '=', True)],
+        required=True)
     note = fields.Text()
     cost = fields.Float()

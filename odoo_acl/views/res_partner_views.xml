@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+        <menuitem id="menu_odoo_acl" name="ACL Demo" sequence="20"/>
+        <menuitem id="menu_res_partner_acl" name="Vendors" parent="menu_odoo_acl"
+            action="base.action_partner_supplier_form" sequence="10"/>
+
+        <!-- Inherit Form view -->
+        <record id="res_partner_form_machines" model="ir.ui.view">
+            <field name="name">res.partner.machine.form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <page name="sales_purchases" position="after">
+                    <page name="machines" string="Machines">
+                        <field name="machine_ids" nolabel="1" />
+                    </page>
+                </page>
+            </field>
+        </record>
+    </data>
+</odoo>

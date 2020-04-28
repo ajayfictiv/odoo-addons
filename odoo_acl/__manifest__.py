@@ -26,6 +26,9 @@
     'depends': [],
 
     # always loaded
-    'data': []
+    'data': [
+        'views/res_partner_views.xml',
+        'views/machine_views.xml',
+    ]
 
 }
