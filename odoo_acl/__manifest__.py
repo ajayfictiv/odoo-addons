@@ -23,7 +23,7 @@
 
     # any module necessary for this one to work correctly
     #UPDATEME remove dependancy of fictiv_digital_model
-    'depends': []
+    'depends': [],
 
     # always loaded
     'data': []
