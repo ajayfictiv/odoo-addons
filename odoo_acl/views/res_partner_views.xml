@@ -12,7 +12,12 @@
             <field name="arch" type="xml">
                 <page name="sales_purchases" position="after">
                     <page name="machines" string="Machines">
-                        <field name="machine_ids" nolabel="1" />
+                        <group>
+                            <field name="machine_ids" nolabel="1" />
+                        </group>
+                        <group>
+                            <field name="total_machine_value" />
+                        </group>
                     </page>
                 </page>
             </field>
