@@ -16,7 +16,8 @@
                             <field name="machine_ids" nolabel="1" />
                         </group>
                         <group>
-                            <field name="total_machine_value" />
+                            <field name="total_machine_value"
+                                groups="odoo_acl.group_fictiv_manager" />
                         </group>
                     </page>
                 </page>
