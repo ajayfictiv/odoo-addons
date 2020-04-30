@@ -1,4 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_machine_vendor,access_machine_vendor,model_machine,group_vendor,1,0,0,0
+access_machine_vendor,access_machine_vendor,model_machine,group_vendor,1,1,0,0
 access_machine_fictiv_user,access_machine_fictiv_user,model_machine,group_fictiv_user,1,1,1,0
 access_machine_fictiv_manager,access_machine_fictiv_manager,model_machine,group_fictiv_manager,1,1,1,1

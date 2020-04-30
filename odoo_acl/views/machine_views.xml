@@ -8,7 +8,7 @@
                 <sheet>
                     <group col="4">
                         <field name="name"/>
-                        <field name="vendor_id"/>
+                        <field name="vendor_id" groups="odoo_acl.group_fictiv_user"/>
                         <field name="cost"/>
                     </group>
                     <group string="Description" name="note">

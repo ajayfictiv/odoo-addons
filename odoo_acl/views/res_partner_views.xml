@@ -2,7 +2,8 @@
     <data>
         <menuitem id="menu_odoo_acl" name="ACL Demo" sequence="20"/>
         <menuitem id="menu_res_partner_acl" name="Vendors" parent="menu_odoo_acl"
-            action="base.action_partner_supplier_form" sequence="10"/>
+            action="base.action_partner_supplier_form" sequence="10"
+            groups="odoo_acl.group_fictiv_user" />
 
         <!-- Inherit Form view -->
         <record id="res_partner_form_machines" model="ir.ui.view">
